@@ -1,4 +1,4 @@
-# RANTAI ETHIKA 🧭
+# RANTAI ETHIKA ⚖️
 
 Ethics & Bias Checker for Data & Models
 
