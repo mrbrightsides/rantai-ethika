@@ -2,8 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(
-    page_title="RANTAI MODEL PREDI",
-    page_icon="🛢️",
+    page_title="RANTAI ETHIKA",
+    page_icon="⚖️",
     layout="wide"
 )
 
