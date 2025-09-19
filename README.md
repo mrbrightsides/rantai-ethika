@@ -76,14 +76,68 @@ EXPLODA → BUSI → MODEL PREDI → ETHIKA
 ## 🔄 Workflow
 
 ```mermaid
+flowchart TD
+  A["📂 Upload Dataset"] --> B["🔎 ETHIKA Scan Balance"]
+  B --> X{"🙏 Apply Spiritual / Value Check?"}
+  
+  X -- "Yes" --> Y["📜 Ethical + Spiritual Review"]
+  X -- "No" --> C{"⚖️ Bias Detected?"}
+  Y --> C
+
+  C -- "Yes" --> D["🚩 Flag Issue<br/>+ Tips for Improvement"]
+  C -- "No" --> E["✅ All Clear<br/>Balanced Detected"]
+  
+  D --> H["📝 Reflection Notes<br/>(User Acknowledgement)"]
+  E --> H
+  
+  H --> I["📊 ETHIKA Report Builder"]
+  I --> J["💾 Save Report / Export<br/>(PDF, CSV, JSON)"]
+  J --> K["📈 Compare with Previous Reports"]
+  K --> L["🌐 Share Insights<br/>via RANTAI Communities"]
+```
+
+---
+
+## 🌀 Hubungan ELPEEF, STC, RANTAI, dan ETHIKA
+
+🌍 **ELPEEF** adalah sumber — titik awal gagasan, ruang lahirnya mimpi, tempat semua kolaboraksi dimulai. Dari sini, dua aliran besar tercipta:  
+- ⚙️ **STC Ecosystem** → kumpulan tools, analytics, dan sistem yang memberi otot dan logika pada ekosistem.  
+- 👥 **RANTAI Communities** → wadah manusia, refleksi, diskusi, dan gerakan sosial yang memberi jiwa dan napas.  
+
+Keduanya tidak berdiri sendiri. Mereka saling tarik-menarik, saling isi, saling kritis. Tapi tetap saja, tanpa suatu penyeimbang, semua ini bisa kehilangan arah:  
+
+☂️ **ETHIKA** hadir sebagai pusat gravitasi. Payung yang bukan sekadar pelindung, tapi pengingat. Bahwa setiap eksperimen, setiap tool, setiap komunitas, harus kembali ke nilai. Etika menjadi orbit yang menjaga agar STC dan RANTAI tidak melayang liar tanpa tujuan.  
+
+✨ ELPEEF melahirkan.  
+⚙️ STC membangun.  
+👥 RANTAI menghidupkan.  
+☂️ ETHIKA memayungi.
+
+```mermaid
+flowchart TD
+    A["ELPEEF 🌍 (the root, the source)"]:::root
+    A --> B["STC Ecosystem ⚙️ (tools, analytics)"]
+    A --> C["RANTAI Communities 👥 (people, reflection)"]
+    B --> D["ETHIKA ☂️ (the ethics umbrella)"]
+    C --> D
+
+    classDef root fill:#1a1a1a,stroke:#fff,color:#fff,font-weight:bold
+    classDef default fill:#f8f8f8,stroke:#333,color:#000
+```
+
+```mermaid
 flowchart LR
-  A["Upload Dataset"] --> B["ETHIKA Scan Balance"]
-  B --> C{"Bias Detected?"}
-  C -- Yes --> D["Flag & Tips"]
-  C -- No --> E["All Clear ✅"]
-  D --> F["Reflection Notes"]
-  E --> F
-  F --> G["Save Report / Export"]
+    A["STC Ecosystem"]:::left
+    B["ETHIKA"]:::center
+    C["RANTAI Communities"]:::right
+
+    A --> B --> C
+    B --> A
+    C --> B
+
+    classDef left fill:#f8f8f8,stroke:#333,color:#000
+    classDef right fill:#f8f8f8,stroke:#333,color:#000
+    classDef center fill:#1a1a1a,stroke:#fff,color:#fff,font-weight:bold
 ```
 
 ---
