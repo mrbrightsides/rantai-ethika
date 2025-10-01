@@ -66,10 +66,10 @@ EXPLODA → BUSI → MODEL PREDI → ETHIKA
 
 | Module      | Link | Status | Badge |
 |-------------|------|--------|-------|
-| EXPLODA   | [rantai-exploda.streamlit.app](https://rantai-exploda.streamlit.app/) | ✅ Stable | ![EXPLODA](https://img.shields.io/badge/rantai-exploda-blue) |
-| BUSI   | [rantai-busi.streamlit.app](https://rantai-busi.streamlit.app/) | ✅ Stable | ![BUSI](https://img.shields.io/badge/rantai-busi-orange) |
-| MODEL PREDI   | [rantai-model-predi.streamlit.app](https://rantai-model-predi.streamlit.app/) | ✅ Stable | ![MODEL PREDI](https://img.shields.io/badge/model-predi-crimson) |
-| ETHIKA     | [rantai-ethika.streamlit.app](https://rantai-ethika.streamlit.app/) | ✅ Stable | ![ETHIKA](https://img.shields.io/badge/rantai-ethika-purple) |
+| EXPLODA   | [exploda.elpeef.com](https://exploda.elpeef.com/) | ✅ Stable | ![EXPLODA](https://img.shields.io/badge/rantai-exploda-blue) |
+| BUSI   | [busi.elpeef.com](https://busi.elpeef.com/) | ✅ Stable | ![BUSI](https://img.shields.io/badge/rantai-busi-orange) |
+| MODEL PREDI   | [predi.elpeef.com](https://predi.elpeef.com/) | ✅ Stable | ![MODEL PREDI](https://img.shields.io/badge/model-predi-crimson) |
+| ETHIKA     | [ethika.elpeef.com](https://ethika.elpeef.com/) | ✅ Stable | ![ETHIKA](https://img.shields.io/badge/rantai-ethika-purple) |
 
 ---
 
